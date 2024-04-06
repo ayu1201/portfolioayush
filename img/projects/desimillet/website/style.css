@@ -1,0 +1,486 @@
+<style>
+						.header
+						{
+							 overflow: hidden;
+							 position: fixed;
+							 background-color: #FDFDF9;
+							 box-shadow: 10px 10px 30px grey;
+							 height: 80px;
+							 width: 1540px;
+							 z-index:1000;
+						}
+
+						#watermark
+						{
+							position: fixed;
+							opacity: 0.1;
+							height: 500px;
+							left: 32%;
+							top: 10%;
+							pointer-events: none;
+							z-index: -1;
+/*							sending it in back image effect*/
+						}
+
+						.logo img
+						{
+							height: 80px;
+							width: 85px;
+							padding: 3px;
+							margin-left: 5px;
+							position: absolute;
+						}
+
+						.navbar
+						{							
+							margin: auto;
+  							width: 280px;
+ 							padding: 1px;							
+						}
+
+						.navbar a
+						{
+							text-decoration: none;
+							color: #9e942f;
+						}
+
+						.navbar h1
+						{
+							margin-top: 10px;
+							font-size: 50px;
+							width:px;
+							padding: 0px;
+							text-align: center;
+						}
+
+						#page1
+						{
+							background-color: #FAFAEA;							
+							padding:15px 15px;
+							height:720px;
+						}
+
+						#img1
+						{
+							margin-top: 10px;
+							height: 400px;
+							width: 500px;
+							position: absolute
+						}
+
+						#img1 img
+						{
+							height: 500px;
+							width: 650px;	
+							margin-left: -35px;					
+						}
+
+						#img1:hover
+						{
+							 transform: scale(1.04);
+							 cursor: pointer;
+						}
+						
+						#call h1
+						{
+							float: right;
+							color: black;
+							padding: 4px;
+							margin-top: -62px;
+							margin-right: 40px;
+							font-size: 32px;
+							font-family: ;
+						}
+
+						#call h1:hover
+						{
+							font-size: 40px;
+							padding: 0px;
+							color: green;
+							text-shadow: 10px 10px 10px grey;
+							transition: 0.3s ease;							
+						}
+
+							.header::before
+							{
+								content: "";
+								position: absolute;
+								display: block;
+								width: 100%;
+								height: 2px;
+								bottom: 0;
+								left: 0;
+								background-color: #000;
+								transform: scaleX(0);
+								transition: transform 0.3s ease;
+							}
+
+							.header:hover::before 
+							{
+							  transform: scaleX(1);
+							}
+
+							#topic1
+							{
+								margin-top: 30px;
+								text-align: right;
+								float: right;
+								width: 850px;
+								height: 100px;
+							}
+
+							#topic1 h1
+							{
+								margin-bottom: 20px;
+								color: blue;
+								text-align: right;
+								font-family: cursive;
+								padding: 2px;
+							}
+
+/*			this is the animation of what is millet				*/
+
+								@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+								p {
+								  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+								  color: #CD921E;
+								}
+								.container {
+								  color: #e5e5e5;
+								  font-size: 2.26rem;
+								  text-transform: uppercase;
+								  height: 10vh;
+								  display: flex;
+								  align-items: center;
+								  justify-content: center;
+								}
+
+								.animation {
+								  height:50px;
+								  overflow:hidden;
+								  margin-left: 1rem;
+								}
+
+								.animation > div > div {
+								  padding: 0.25rem 0.75rem;
+								  height:2.81rem;
+								  margin-bottom: 2.81rem;
+								  display:inline-block;
+								}
+
+								.animation div:first-child {
+								  animation: text-animation 8s infinite;
+								}
+
+								.first div {
+								  background-color:#20a7d8;
+								}
+								.second div {
+								  background-color:#CD921E;
+								}
+								.third div {
+								  background-color:#c10528;
+								}
+
+								@keyframes text-animation {
+								  0% {margin-top: 0;}
+								  10% {margin-top: 0;}
+								  20% {margin-top: -5.62rem;}
+								  30% {margin-top: -5.62rem;}
+								  40% {margin-top: -11.24rem;}
+								  60% {margin-top: -11.24rem;}
+								  70% {margin-top: -5.62rem;}
+								  80% {margin-top: -5.62rem;}
+								  90% {margin-top: 0;}
+								  100% {margin-top: 0;}
+								}
+
+/* animation end here  */
+							#topic1 h5
+							{
+								font-family: "Segoe Script";
+								font-weight: bold;
+								color: #E4CC4E;
+								font-size: 32px;
+								text-align: justify right;
+								top: 100px;
+								position: absolute;
+								flex-wrap: wrap;
+							}
+
+							#text h5 span
+							{
+								color: #637A9F;
+							}
+
+							#text 
+							{
+								height: 100px;
+								width: 800px;
+								position: absolute;
+							}
+
+							#page2
+							{
+								background-color: #FAFAEA;							
+																
+							}
+
+							#topic2
+							{
+								height:700px;
+							}
+
+							#topic2 h1
+							{
+								font-size: 60px;
+								color: #6E3693;
+								font-family: cursive;
+							}
+
+							#topic2 h3
+							{
+								margin-top: 90px;
+								font-size: 30px;
+								text-align: justify;
+								font-family: cursive;
+							}
+
+							#topic2 h3:hover
+							{
+								color: #A232DD;
+								cursor: grab;
+								text-align: right;
+							}
+
+							#page3
+							{
+								background-color:;							
+								padding:15px 15px;
+								height:1000px;
+							}
+
+							#page3
+							{
+								color: forestgreen;
+								font-family: Monospace,Monaco;
+								padding-top: 10px;
+								text-align: center;
+								text-decoration: underline;
+								text-shadow: 5px 5px 5px #A5A4A6;
+								height: 30px;
+								position: absolute;
+							}
+
+							.box-container
+							{								
+								padding: 3rem 3rem;
+								grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+								gap: 3.5rem;
+								display: flex;
+ 								flex-wrap: wrap;
+							}
+
+							.box
+							{
+								border-bottom: 2px solid black;
+								box-shadow: 2px 2px grey;
+								border-radius: 10%;
+								height: 550px;
+								padding: 50px;
+								background-color: #EDECE9;								
+							}
+
+							.box:hover
+							{
+								box-shadow: 8px 15px 5px grey;
+								 transition: all 0.3s ease-in-out;
+							}
+
+							.box p
+							{
+								padding-top: 25px;
+								text-align: center;
+								color: green;
+								font-weight: bold;
+							}
+
+							.box img
+							{
+								height: 250px;
+								width: 300px;
+							}
+
+							.box h3
+							{
+								color: brown;
+								margin-top: 50px;
+								text-align: center;
+							}
+
+							.box button
+							{
+								border: 2px solid #E4E4DE;
+								background-color: #E1DEE3;
+								border-radius: 18px;
+								color: black;
+								height: 50px;
+								width: 150px;
+								text-align: center;
+								position: relative;
+								left: 72px; 
+								font-family: cursive;
+								font-size: 18px;								
+							}
+
+							.box button:hover
+							{
+								box-shadow: 2px 2px 4px black;
+								 transition: all 0.2s ease-in-out;
+							}
+
+							footer
+							{
+								display: flex;
+								flex-wrap: wrap;
+								justify-content: space-between;
+								background-color: #C9D7DD;
+							}
+
+							footer .col
+							{
+								display: flex;
+								flex-direction: column;
+								align-items: flex-start;
+								margin-top: 20px;
+								padding: 10px;
+							}
+
+							footer .logo
+							{
+								margin-bottom: px;
+								height: 120px;
+								width: 130px;
+								padding: 20px;
+							} 
+
+							footer h4
+							{
+								font-size: 34px;
+								padding-bottom: 20px;
+								margin-left: 20px;
+							}
+
+							footer p
+							{
+								font-size: 20px;
+								margin: 0 0 8px 0;
+								margin-left: 20px;
+							}
+
+							footer a
+							{
+								font-size: 15px;
+								text-decoration: none;
+								color: #222;
+								margin-bottom: 10px;
+								margin-top: 20px;
+								font-weight: bold;
+								color: #637A9F;
+							}
+
+							fotter .follow
+							{
+								margin-top: 20px;
+							}
+
+							footer .follow i
+							{
+								color: #465b52;
+								padding-right: 30px;
+								cursor: pointer;
+								margin-left: 20px;
+								font-size: 50px;
+							}
+
+							#fb
+							{
+								color: blue;
+							}
+
+							#fb:hover
+							{
+								font-size: 60px;
+								transition: 0.3s ease;
+							}
+
+							#insta:hover
+							{
+								font-size: 60px;
+								transition: 0.3s ease;
+							}
+
+							#youtube:hover
+							{
+								font-size: 60px;
+								transition: 0.3s ease;
+							}
+
+							#insta
+							{
+								color: hotpink;
+							}
+
+							#youtube
+							{
+								color: red;
+							}
+
+							.col h4
+							{
+								margin-top: 20px;
+							}
+
+
+							.copyright
+							{
+								width: 100%;
+								cursor: pointer;
+								text-align: center;
+							}
+						  	
+						  	.copyright p
+						  	{
+						  		color: #637A9F;
+						  	}
+
+						  	@media (max-width: 1200px)
+						  	{
+						  		html
+						  		{
+						  			font-size: 55%;
+						  		}
+						  	}
+
+						  	@media only screen and (min-width: 320px) and (max-width: 426px) 
+						  	{
+
+						  		#text h5
+						  		{
+						  			font-size: 25%;
+						  		}
+
+						  		#img1 img
+						  		{
+						  			width: 400px;
+						  			height: 400px;
+						  		}
+
+						  		#wm h3
+						  		{
+						  			font-size: 25%;
+						  		}
+
+						  	}
+						  
+		</style>
